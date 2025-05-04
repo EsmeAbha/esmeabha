@@ -3,8 +3,8 @@
 
 A showcase of my GitHub activity and skills.
 
-![EsmeAbha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=EsmeAbha&show_icons=true&theme=tokyonight&bg_color=141321,1e1e2e)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=EsmeAbha&layout=compact&theme=tokyonight&bg_color=141321,1e1e2e)
+![EsmeAbha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=EsmeAbha&show_icons=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=EsmeAbha&layout=compact)
 ## About Me
 Here are some ideas to get you started:
 
