@@ -1,8 +1,13 @@
 ## Hi there 👋
 
-<!--
-**EsmeAbha/esmeabha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
+A showcase of my GitHub activity and skills.
+
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=EsmeAbha&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=EsmeAbha&layout=compact&hide=jupyter%20notebook&theme=radical)
+
+## About Me
+- Add your bio or details here...
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
