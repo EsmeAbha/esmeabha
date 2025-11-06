@@ -8,7 +8,7 @@ A showcase of my GitHub activity and skills.
 ## About Me
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working as Node js Intern in Byteverse Ltd
+- 🔭 I’m currently working as Node js Developer in Byteverse Ltd
 - 🌱 I’m currently learning Node js
 - 📫 How to reach me: esmechowdhuryabha@gmail.com
 
