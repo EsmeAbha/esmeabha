@@ -79,13 +79,6 @@
 
 ---
 
-## 📈 Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EsmeAbha&theme=tokyo-night&hide_border=true&area=true&area_color=7F77DD&line=7F77DD&point=D4537E" width="100%"/>
-</p>
-
----
 
 ## 🏆 Trophies
 
