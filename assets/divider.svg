@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 4" width="1280" height="4" role="presentation">
+  <!-- Same 8s master cycle as the banner: the glint crosses and reaches the
+       centre at 2.6s, so the rules pulse in time with the core flare. -->
   <defs>
     <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%"   stop-color="#7F77DD" stop-opacity="0"/>
@@ -12,16 +14,28 @@
       <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-    <mask id="fade">
-      <rect width="1280" height="4" fill="url(#base)"/>
-    </mask>
+    <mask id="fade"><rect width="1280" height="4" fill="url(#base)"/></mask>
   </defs>
 
-  <rect y="1.5" width="1280" height="1.4" fill="url(#base)"/>
+  <rect y="1.5" width="1280" height="1.4" fill="url(#base)">
+    <animate attributeName="opacity" values="0.85;0.85;1;0.88;0.85"
+             keyTimes="0;0.30;0.335;0.55;1" dur="8s" repeatCount="indefinite"/>
+  </rect>
 
   <g mask="url(#fade)">
-    <rect x="-260" y="0.6" width="260" height="2.8" fill="url(#glint)">
-      <animate attributeName="x" values="-260;1280" dur="4.5s" repeatCount="indefinite"/>
+    <!-- left glint runs inward and lands at centre on the beat -->
+    <rect x="-300" y="0.6" width="300" height="2.8" fill="url(#glint)">
+      <animate attributeName="x" values="-300;490;-300;-300"
+               keyTimes="0;0.325;0.33;1" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0;0"
+               keyTimes="0;0.06;0.30;0.33;1" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <!-- and its mirror -->
+    <rect x="1280" y="0.6" width="300" height="2.8" fill="url(#glint)">
+      <animate attributeName="x" values="1280;490;1280;1280"
+               keyTimes="0;0.325;0.33;1" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0;0"
+               keyTimes="0;0.06;0.30;0.33;1" dur="8s" repeatCount="indefinite"/>
     </rect>
   </g>
 </svg>
