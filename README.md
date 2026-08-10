@@ -1,6 +1,14 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/banner.svg" width="100%" alt="Esme Abha — backend engineer · ai tooling · automation" />
+<!-- The banner links to the live site: a README is sandboxed by GitHub
+     (Content-Security-Policy: default-src 'none'; sandbox) and embedded as a
+     proxied <img>, so no JavaScript and no pointer events are possible here.
+     A link is one of only two interactions GitHub permits in a README. -->
+<a href="https://esmeabha.github.io" title="Open the live, cursor-reactive version">
+  <img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/banner.svg" width="100%" alt="Esme Abha — backend engineer · ai tooling · automation" />
+</a>
+
+<sub><a href="https://esmeabha.github.io"><b>↗ open the interactive version</b></a> &nbsp;·&nbsp; the particles react to your cursor there</sub>
 
 <br/><br/>
 
