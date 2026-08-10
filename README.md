@@ -57,22 +57,39 @@ learning: cloud infrastructure & distributed systems
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{
-  'primaryColor':'#0f0e18','primaryTextColor':'#CECBF6','primaryBorderColor':'#7F77DD',
-  'lineColor':'#7F77DD','secondaryColor':'#1a1926','tertiaryColor':'#0f0e18',
-  'fontFamily':'ui-monospace, SFMono-Regular, Menlo, monospace','fontSize':'14px'}}}%%
+  'primaryColor':'#12111d','primaryTextColor':'#CECBF6','primaryBorderColor':'#3a3552',
+  'lineColor':'#544e78','secondaryColor':'#1a1926','tertiaryColor':'#0f0e18',
+  'edgeLabelBackground':'#0b0a12',
+  'fontFamily':'ui-monospace, SFMono-Regular, Menlo, monospace','fontSize':'13px'}}}%%
 flowchart LR
-    A["a boring<br/>manual process"] --> B{worth<br/>automating?}
-    B -->|"just data"| C["python<br/>script / notebook"]
-    B -->|"needs an API"| D["flask<br/>or laravel"]
-    B -->|"needs a face"| E["next.js<br/>+ tailwind"]
-    C --> F[("storage")]
+    A["a process still<br/>run by hand"]
+    B["map the steps,<br/>pin down the contract"]
+    C["shape the data<br/>python · pandas"]
+    D["expose a service<br/>laravel · flask"]
+    E["an interface, only where a<br/>human stays in the loop<br/>next.js · tailwind"]
+    F[("persistence")]
+    G["scheduled work<br/>queues · workers · cron"]
+    H["observability<br/>logs · retries · alerts"]
+    I["runs unattended"]
+
+    A --> B
+    B --> C
+    B --> D
+    B --> E
+    C --> F
     D --> F
     E --> D
-    F --> G["something that<br/>runs without me"]
+    F --> G
+    G --> H
+    H --> I
+    H -. "what production teaches" .-> B
 
-    style A stroke:#D4537E,stroke-width:2px
-    style G stroke:#D4537E,stroke-width:2px
-    style B stroke:#7F77DD,stroke-width:2px
+    classDef ends fill:#191320,stroke:#D4537E,stroke-width:1.5px,color:#F2D6E2
+    classDef step fill:#12111d,stroke:#7F77DD,stroke-width:1.2px
+    classDef store fill:#12111d,stroke:#4d9c8b,stroke-width:1.2px,color:#BFE6DA
+    class A,I ends
+    class B,C,D,E,G,H step
+    class F store
 ```
 
 <img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/divider.svg" width="100%"/>
