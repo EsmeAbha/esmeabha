@@ -112,38 +112,4 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:D4537E,100:7F77DD&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
-And the snake workflow — this one goes to EsmeAbha/EsmeAbha/.github/workflows/snake.yml:
 
-
-name: generate snake
-
-on:
-  schedule:
-    - cron: '0 */12 * * *'   # twice a day
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Render the snake
-        uses: Platane/snk@v3
-        id: snake-gif
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Publish to the output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
