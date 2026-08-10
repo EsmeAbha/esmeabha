@@ -27,9 +27,10 @@ the unglamorous half of software — the services, pipelines and jobs that quiet
 while nobody looks at them.
 
 Most of what I build starts as someone doing something tedious by hand. I'm drawn to the moment a
-manual process becomes a script, then an API, then something that just runs. My work sits mostly in
-**Python** and **Laravel**, with **Flask** and **Next.js** when a thing needs an edge, and I'm
-currently going deeper on **cloud infrastructure and distributed systems**.
+manual process becomes a script, then an API, then something that just runs. My day-to-day work is
+**Laravel** and **Python**, and it lives in private repos; what's public here leans toward data work
+in **R** and **Jupyter**, plus **TypeScript** side projects. Currently going deeper on cloud
+infrastructure and distributed systems.
 
 <br/>
 
@@ -46,7 +47,7 @@ learning: cloud infrastructure & distributed systems
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7F77DD,50:D4537E,100:7F77DD&height=3" width="100%"/>
+<img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/divider.svg" width="100%"/>
 
 ## How I build things
 
@@ -70,7 +71,7 @@ flowchart LR
     style B stroke:#7F77DD,stroke-width:2px
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7F77DD,50:D4537E,100:7F77DD&height=3" width="100%"/>
+<img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/divider.svg" width="100%"/>
 
 ## Stack
 
@@ -116,17 +117,26 @@ flowchart LR
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7F77DD,50:D4537E,100:7F77DD&height=3" width="100%"/>
+<img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/divider.svg" width="100%"/>
 
 ## By the numbers
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=EsmeAbha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&title_color=7F77DD&icon_color=D4537E&text_color=8F8AB8&bg_color=0A0A0F" height="165"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EsmeAbha&layout=compact&theme=tokyonight&hide_border=true&title_color=7F77DD&text_color=8F8AB8&bg_color=0A0A0F" height="165"/>
-</p>
+<div align="center">
 
-<br/>
+<img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/langs.svg" width="760" alt="public repositories by primary language"/>
+
+</div>
+
+<sub>
+Generated straight from the GitHub API by
+<a href="scripts/gen-langs.sh">scripts/gen-langs.sh</a> and refreshed weekly by
+<a href=".github/workflows/refresh-stats.yml">a workflow</a> — no third-party card service, so it
+cannot rate-limit or go down. It counts <em>repositories</em> rather than bytes on purpose:
+<code>.ipynb</code> files embed their own outputs, so byte-counting reports ~90% "Jupyter Notebook"
+for this account, which describes the file format rather than the work.
+</sub>
+
+<br/><br/>
 
 <div align="center">
 

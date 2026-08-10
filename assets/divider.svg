@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 4" width="1280" height="4" role="presentation">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7F77DD" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#7F77DD" stop-opacity="0.75"/>
+      <stop offset="50%"  stop-color="#D4537E" stop-opacity="0.9"/>
+      <stop offset="75%"  stop-color="#7F77DD" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#7F77DD" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="fade">
+      <rect width="1280" height="4" fill="url(#base)"/>
+    </mask>
+  </defs>
+
+  <rect y="1.5" width="1280" height="1.4" fill="url(#base)"/>
+
+  <g mask="url(#fade)">
+    <rect x="-260" y="0.6" width="260" height="2.8" fill="url(#glint)">
+      <animate attributeName="x" values="-260;1280" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
