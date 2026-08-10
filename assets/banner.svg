@@ -1,66 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="abha - backend engineer, AI tooling, automation">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1280 340" width="1280" height="340" role="img"
+     aria-label="abha - backend engineer, AI tooling, automation">
   <title>abha — backend engineer · ai tooling · automation</title>
 
   <!--
     One 8s master cycle drives everything.
-      0.00s  both dot fields begin sweeping inward from their outer edges
-      2.60s  the two sweeps meet at the centre - the core flares, rings burst
-      3.00s  fields exhale back outward, brightness decays
+      0.00s  the halftone fields sweep inward from both edges
+      2.60s  they meet - the voxel core flares, shock rings burst
+      3.00s  fields exhale outward, brightness decays
       8.00s  repeat
-    Every begin= below is phrased against that clock, so the piece reads as a
-    single event rather than six unrelated loops.
   -->
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0c0b14"/>
-      <stop offset="55%" stop-color="#050509"/>
+      <stop offset="0%" stop-color="#0d0c16"/>
+      <stop offset="55%" stop-color="#06060b"/>
       <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="48%" r="62%">
+      <stop offset="0%"   stop-color="#000" stop-opacity="0"/>
+      <stop offset="70%"  stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.75"/>
+    </radialGradient>
 
     <pattern id="dots" width="9" height="9" patternUnits="userSpaceOnUse">
       <circle cx="4.5" cy="4.5" r="1.55" fill="#ffffff"/>
     </pattern>
-    <!-- finer, denser grid for the parallax layer behind -->
     <pattern id="dotsFine" width="5" height="5" patternUnits="userSpaceOnUse">
       <circle cx="2.5" cy="2.5" r="0.7" fill="#ffffff"/>
     </pattern>
 
-    <radialGradient id="fadeL" cx="8%" cy="50%" r="46%">
-      <stop offset="0%"   stop-color="#fff" stop-opacity="0.95"/>
-      <stop offset="55%"  stop-color="#fff" stop-opacity="0.35"/>
+    <!-- organic lens-shaped falloff, not a full-canvas rectangle -->
+    <radialGradient id="blobFade" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#fff" stop-opacity="1"/>
+      <stop offset="45%"  stop-color="#fff" stop-opacity="0.62"/>
+      <stop offset="78%"  stop-color="#fff" stop-opacity="0.18"/>
       <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="fadeR" cx="92%" cy="52%" r="46%">
-      <stop offset="0%"   stop-color="#fff" stop-opacity="0.95"/>
-      <stop offset="55%"  stop-color="#fff" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
-    </radialGradient>
-    <mask id="mL"><rect width="1280" height="340" fill="url(#fadeL)"/></mask>
-    <mask id="mR"><rect width="1280" height="340" fill="url(#fadeR)"/></mask>
+    <mask id="mL">
+      <ellipse cx="215" cy="168" rx="360" ry="152" fill="url(#blobFade)" transform="rotate(-11 215 168)"/>
+    </mask>
+    <mask id="mR">
+      <ellipse cx="1065" cy="176" rx="360" ry="152" fill="url(#blobFade)" transform="rotate(11 1065 176)"/>
+    </mask>
 
     <linearGradient id="sweepGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%"   stop-color="#fff" stop-opacity="0"/>
       <stop offset="50%"  stop-color="#fff" stop-opacity="1"/>
       <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
-
-    <!-- travels left edge -> centre, then blanks until the cycle restarts -->
     <mask id="sweepL">
       <rect y="0" width="470" height="340" fill="url(#sweepGrad)" x="-470">
-        <animate attributeName="x" values="-470;520;-470;-470"
-                 keyTimes="0;0.325;0.33;1" dur="8s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0;0"
-                 keyTimes="0;0.06;0.30;0.33;1" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="-470;520;-470;-470" keyTimes="0;0.325;0.33;1" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.30;0.33;1" dur="8s" repeatCount="indefinite"/>
       </rect>
     </mask>
-    <!-- mirror image, right edge -> centre -->
     <mask id="sweepR">
       <rect y="0" width="470" height="340" fill="url(#sweepGrad)" x="1280">
-        <animate attributeName="x" values="1280;290;1280;1280"
-                 keyTimes="0;0.325;0.33;1" dur="8s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0;0"
-                 keyTimes="0;0.06;0.30;0.33;1" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="1280;290;1280;1280" keyTimes="0;0.325;0.33;1" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.30;0.33;1" dur="8s" repeatCount="indefinite"/>
       </rect>
     </mask>
 
@@ -73,27 +71,81 @@
       <stop offset="100%" stop-color="#D4537E"/>
     </linearGradient>
 
-    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#8E7BFF">
-        <animate attributeName="stop-color" values="#8E7BFF;#D4537E;#8E7BFF" dur="16s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#D4537E">
-        <animate attributeName="stop-color" values="#D4537E;#8E7BFF;#D4537E" dur="16s" repeatCount="indefinite"/>
-      </stop>
+    <!-- wave strokes -->
+    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7F77DD" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#7F77DD" stop-opacity="0.85"/>
+      <stop offset="70%"  stop-color="#D4537E" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#D4537E" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#CECBF6" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#8E7BFF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#CECBF6" stop-opacity="0"/>
     </linearGradient>
 
+    <!-- isometric cube faces: top catches the light, left falls away -->
+    <linearGradient id="faceTop" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#B9AEFF"/>
+      <stop offset="100%" stop-color="#8E7BFF"/>
+    </linearGradient>
+    <linearGradient id="faceRight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7F77DD"/>
+      <stop offset="100%" stop-color="#54499E"/>
+    </linearGradient>
+    <linearGradient id="faceLeft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5B4E9B"/>
+      <stop offset="100%" stop-color="#2E2752"/>
+    </linearGradient>
+    <linearGradient id="faceTopHot" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#FFC2D8"/>
+      <stop offset="100%" stop-color="#D4537E"/>
+    </linearGradient>
+    <linearGradient id="faceRightHot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4537E"/>
+      <stop offset="100%" stop-color="#8A2F51"/>
+    </linearGradient>
+
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8E7BFF"/>
+      <stop offset="100%" stop-color="#D4537E"/>
+    </linearGradient>
     <radialGradient id="halo" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#9B8CFF" stop-opacity="0.85"/>
-      <stop offset="45%"  stop-color="#7F77DD" stop-opacity="0.25"/>
+      <stop offset="0%"   stop-color="#9B8CFF" stop-opacity="0.8"/>
+      <stop offset="42%"  stop-color="#7F77DD" stop-opacity="0.22"/>
       <stop offset="100%" stop-color="#7F77DD" stop-opacity="0"/>
     </radialGradient>
 
-    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="9"/>
+    <filter id="soft" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="11"/>
     </filter>
     <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="4"/>
+      <feGaussianBlur stdDeviation="3.5"/>
     </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+
+    <!-- one cube, three shaded faces; s=22 tall, w=19 half-width -->
+    <g id="cube">
+      <path d="M0,-22 L19,-11 L0,0 L-19,-11 Z" fill="url(#faceTop)"/>
+      <path d="M-19,-11 L0,0 L0,22 L-19,11 Z" fill="url(#faceLeft)"/>
+      <path d="M19,-11 L0,0 L0,22 L19,11 Z" fill="url(#faceRight)"/>
+      <path d="M0,-22 L19,-11 L0,0 L-19,-11 Z" fill="none" stroke="#CECBF6" stroke-opacity="0.35" stroke-width="0.8"/>
+    </g>
+    <g id="cubeHot">
+      <path d="M0,-22 L19,-11 L0,0 L-19,-11 Z" fill="url(#faceTopHot)"/>
+      <path d="M-19,-11 L0,0 L0,22 L-19,11 Z" fill="url(#faceLeft)"/>
+      <path d="M19,-11 L0,0 L0,22 L19,11 Z" fill="url(#faceRightHot)"/>
+      <path d="M0,-22 L19,-11 L0,0 L-19,-11 Z" fill="none" stroke="#FFD7E6" stroke-opacity="0.45" stroke-width="0.8"/>
+    </g>
+    <!-- small drifting solid, quarter scale -->
+    <g id="chip">
+      <path d="M0,-9 L7.8,-4.5 L0,0 L-7.8,-4.5 Z" fill="url(#faceTop)"/>
+      <path d="M-7.8,-4.5 L0,0 L0,9 L-7.8,4.5 Z" fill="url(#faceLeft)"/>
+      <path d="M7.8,-4.5 L0,0 L0,9 L7.8,4.5 Z" fill="url(#faceRight)"/>
+    </g>
 
     <clipPath id="type">
       <rect x="386" y="274" width="0" height="22">
@@ -104,133 +156,152 @@
 
   <rect width="1280" height="340" fill="url(#bg)"/>
 
-  <!-- ================= LEFT FIELD ================= -->
+  <!-- ===================== WAVES ===================== -->
+  <g fill="none" stroke-linecap="round">
+    <g opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-420 0" dur="19s" repeatCount="indefinite"/>
+      <path d="M-460,214 C-260,178 -120,250 100,214 S440,178 660,214 S1000,250 1220,214 S1560,178 1740,214"
+            stroke="url(#waveA)" stroke-width="1.4"/>
+    </g>
+    <g opacity="0.34">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-360 0" dur="27s" repeatCount="indefinite"/>
+      <path d="M-400,252 C-200,228 -60,286 160,252 S500,218 720,252 S1060,286 1280,252 S1620,218 1800,252"
+            stroke="url(#waveB)" stroke-width="1"/>
+    </g>
+    <g opacity="0.28">
+      <animateTransform attributeName="transform" type="translate" values="0 0;340 0" dur="33s" repeatCount="indefinite"/>
+      <path d="M-420,96 C-220,124 -80,64 140,96 S480,128 700,96 S1040,64 1260,96 S1600,128 1780,96"
+            stroke="url(#waveB)" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- ===================== HALFTONE FIELDS ===================== -->
   <g mask="url(#mL)">
-    <!-- parallax: fine grid drifts further and slower than the coarse one -->
-    <g opacity="0.22">
-      <animateTransform attributeName="transform" type="translate"
-                        values="0 0; 26 0; 0 0" keyTimes="0;0.35;1" dur="8s" repeatCount="indefinite"/>
+    <g opacity="0.24">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 26 0; 0 0" keyTimes="0;0.35;1" dur="8s" repeatCount="indefinite"/>
       <rect width="1280" height="340" fill="url(#dotsFine)"/>
     </g>
     <g>
-      <animateTransform attributeName="transform" type="translate"
-                        values="0 0; 14 0; 0 0" keyTimes="0;0.325;1" dur="8s" repeatCount="indefinite"/>
-      <rect width="1280" height="340" fill="url(#dots)" opacity="0.4"/>
-      <rect width="640" height="340" fill="url(#tintL)" opacity="0.16"/>
-      <g mask="url(#sweepL)">
-        <rect width="1280" height="340" fill="url(#dots)" opacity="0.95"/>
-      </g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 14 0; 0 0" keyTimes="0;0.325;1" dur="8s" repeatCount="indefinite"/>
+      <rect width="1280" height="340" fill="url(#dots)" opacity="0.45"/>
+      <rect width="640" height="340" fill="url(#tintL)" opacity="0.2"/>
+      <g mask="url(#sweepL)"><rect width="1280" height="340" fill="url(#dots)" opacity="0.95"/></g>
     </g>
   </g>
 
-  <!-- ================= RIGHT FIELD ================= -->
   <g mask="url(#mR)">
-    <g opacity="0.2">
-      <animateTransform attributeName="transform" type="translate"
-                        values="0 0; -26 0; 0 0" keyTimes="0;0.35;1" dur="8s" repeatCount="indefinite"/>
+    <g opacity="0.22">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -26 0; 0 0" keyTimes="0;0.35;1" dur="8s" repeatCount="indefinite"/>
       <rect width="1280" height="340" fill="url(#dotsFine)"/>
     </g>
     <g>
-      <animateTransform attributeName="transform" type="translate"
-                        values="0 0; -14 0; 0 0" keyTimes="0;0.325;1" dur="8s" repeatCount="indefinite"/>
-      <rect width="1280" height="340" fill="url(#dots)" opacity="0.36"/>
-      <rect x="640" width="640" height="340" fill="url(#tintR)" opacity="0.18"/>
-      <g mask="url(#sweepR)">
-        <rect width="1280" height="340" fill="url(#dots)" opacity="0.9"/>
-      </g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; -14 0; 0 0" keyTimes="0;0.325;1" dur="8s" repeatCount="indefinite"/>
+      <rect width="1280" height="340" fill="url(#dots)" opacity="0.4"/>
+      <rect x="640" width="640" height="340" fill="url(#tintR)" opacity="0.22"/>
+      <g mask="url(#sweepR)"><rect width="1280" height="340" fill="url(#dots)" opacity="0.9"/></g>
     </g>
   </g>
 
-  <!-- ============ MOTES DRAWN IN TOWARD THE CORE ============ -->
+  <!-- ===================== DRIFTING SOLIDS ===================== -->
+  <g opacity="0.75">
+    <!-- additive="sum" adds to the base transform, so the animated values must be
+         OFFSETS from it, not absolute positions - otherwise each solid lands at
+         double its coordinates and leaves the canvas. -->
+    <g transform="translate(268 96)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" dur="13s" repeatCount="indefinite" additive="sum"/>
+      <use xlink:href="#chip" href="#chip" opacity="0.7"/>
+    </g>
+    <g transform="translate(1010 250)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" dur="17s" repeatCount="indefinite" additive="sum"/>
+      <use xlink:href="#chip" href="#chip" opacity="0.6"/>
+    </g>
+    <g transform="translate(430 268)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="21s" repeatCount="indefinite" additive="sum"/>
+      <use xlink:href="#chip" href="#chip" opacity="0.45"/>
+    </g>
+    <g transform="translate(880 92)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="15s" repeatCount="indefinite" additive="sum"/>
+      <use xlink:href="#chip" href="#chip" opacity="0.5"/>
+    </g>
+  </g>
+
+  <!-- ===================== MOTES DRAWN INWARD ===================== -->
   <g filter="url(#glow)">
     <circle r="2.2" fill="#CECBF6" opacity="0">
-      <animateMotion dur="8s" repeatCount="indefinite" keyTimes="0;0.33;1"
-                     keyPoints="0;1;1" calcMode="linear"
-                     path="M40,120 Q330,96 636,152"/>
+      <animateMotion dur="8s" repeatCount="indefinite" keyTimes="0;0.33;1" keyPoints="0;1;1" calcMode="linear" path="M40,120 Q330,96 632,150"/>
       <animate attributeName="opacity" values="0;0.9;0;0" keyTimes="0;0.28;0.33;1" dur="8s" repeatCount="indefinite"/>
     </circle>
     <circle r="1.8" fill="#8E7BFF" opacity="0">
-      <animateMotion dur="8s" begin="-0.5s" repeatCount="indefinite" keyTimes="0;0.33;1"
-                     keyPoints="0;1;1" calcMode="linear"
-                     path="M20,232 Q330,246 636,166"/>
+      <animateMotion dur="8s" begin="-0.5s" repeatCount="indefinite" keyTimes="0;0.33;1" keyPoints="0;1;1" calcMode="linear" path="M20,232 Q330,246 632,164"/>
       <animate attributeName="opacity" values="0;0.85;0;0" keyTimes="0;0.28;0.33;1" dur="8s" begin="-0.5s" repeatCount="indefinite"/>
     </circle>
     <circle r="2.4" fill="#F0C9B8" opacity="0">
-      <animateMotion dur="8s" begin="-0.25s" repeatCount="indefinite" keyTimes="0;0.33;1"
-                     keyPoints="0;1;1" calcMode="linear"
-                     path="M1240,208 Q950,238 644,164"/>
+      <animateMotion dur="8s" begin="-0.25s" repeatCount="indefinite" keyTimes="0;0.33;1" keyPoints="0;1;1" calcMode="linear" path="M1240,208 Q950,238 648,162"/>
       <animate attributeName="opacity" values="0;0.9;0;0" keyTimes="0;0.28;0.33;1" dur="8s" begin="-0.25s" repeatCount="indefinite"/>
     </circle>
     <circle r="1.9" fill="#D4537E" opacity="0">
-      <animateMotion dur="8s" begin="-0.75s" repeatCount="indefinite" keyTimes="0;0.33;1"
-                     keyPoints="0;1;1" calcMode="linear"
-                     path="M1262,112 Q950,92 644,150"/>
+      <animateMotion dur="8s" begin="-0.75s" repeatCount="indefinite" keyTimes="0;0.33;1" keyPoints="0;1;1" calcMode="linear" path="M1262,112 Q950,92 648,148"/>
       <animate attributeName="opacity" values="0;0.85;0;0" keyTimes="0;0.28;0.33;1" dur="8s" begin="-0.75s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <!-- ================= THE CORE ================= -->
-  <g transform="translate(640 158)">
+  <!-- ===================== THE VOXEL CORE ===================== -->
+  <g transform="translate(640 150)">
 
-    <!-- halo: slow breath, with a hard spike at the moment of contact -->
     <circle r="132" fill="url(#halo)">
-      <animate attributeName="opacity" values="0.55;0.7;1;0.62;0.55"
-               keyTimes="0;0.30;0.335;0.55;1" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="120;128;150;130;120"
-               keyTimes="0;0.30;0.335;0.55;1" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0.7;1;0.62;0.55" keyTimes="0;0.30;0.335;0.55;1" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="120;128;154;130;120" keyTimes="0;0.30;0.335;0.55;1" dur="8s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- shock rings released on contact -->
     <circle r="0" fill="none" stroke="#CECBF6" stroke-width="1.5" opacity="0">
-      <animate attributeName="r" values="26;190;190" keyTimes="0;0.26;1" dur="8s" begin="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="30;196;196" keyTimes="0;0.26;1" dur="8s" begin="2.6s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.75;0;0" keyTimes="0;0.02;0.26;1" dur="8s" begin="2.6s" repeatCount="indefinite"/>
     </circle>
     <circle r="0" fill="none" stroke="#D4537E" stroke-width="1" opacity="0">
-      <animate attributeName="r" values="26;150;150" keyTimes="0;0.24;1" dur="8s" begin="2.78s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="30;156;156" keyTimes="0;0.24;1" dur="8s" begin="2.78s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.6;0;0" keyTimes="0;0.02;0.24;1" dur="8s" begin="2.78s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- orbiters, offset by thirds so they never bunch -->
-    <circle r="3" fill="#D4537E" opacity="0.9">
-      <animateMotion dur="14s" repeatCount="indefinite"
-                     path="M0,-98 A98,98 0 1,1 0,98 A98,98 0 1,1 0,-98"/>
-    </circle>
-    <circle r="2.2" fill="#CECBF6" opacity="0.8">
-      <animateMotion dur="14s" begin="-4.66s" repeatCount="indefinite"
-                     path="M0,-98 A98,98 0 1,1 0,98 A98,98 0 1,1 0,-98"/>
-    </circle>
-    <circle r="2.6" fill="#8E7BFF" opacity="0.85">
-      <animateMotion dur="14s" begin="-9.33s" repeatCount="indefinite"
-                     path="M0,-98 A98,98 0 1,1 0,98 A98,98 0 1,1 0,-98"/>
-    </circle>
+    <!-- soft bloom behind the solid -->
+    <g filter="url(#soft)" opacity="0.7">
+      <path d="M0,-58 L34,-38 L0,-18 L-34,-38 Z" fill="url(#core)"/>
+      <path d="M0,-8 L48,20 L0,48 L-48,20 Z" fill="url(#core)"/>
+    </g>
 
-    <!-- diamond: constant slow spin, punched outward on contact -->
+    <!-- 7-cube isometric cluster, drawn back-to-front (painter's order).
+         Axis steps: +X (19,11)  +Y (-19,11)  +Z (0,-22) -->
     <g>
-      <animateTransform attributeName="transform" type="scale"
-                        values="1;1.02;1.22;1.03;1" keyTimes="0;0.30;0.345;0.58;1"
-                        dur="8s" repeatCount="indefinite" additive="sum"/>
+      <animateTransform attributeName="transform" type="scale" values="1;1.02;1.16;1.03;1"
+                        keyTimes="0;0.30;0.345;0.58;1" dur="8s" repeatCount="indefinite" additive="sum"/>
       <g>
-        <animateTransform attributeName="transform" type="rotate"
-                          from="0" to="360" dur="30s" repeatCount="indefinite"/>
-        <g filter="url(#soft)" opacity="0.85">
-          <path d="M0,-46 L26,0 L0,46 L-26,0 Z" fill="url(#core)"/>
-        </g>
-        <path d="M0,-40 L23,0 L0,40 L-23,0 Z" fill="url(#core)"/>
-        <path d="M0,-40 L23,0 L0,40 L-23,0 Z" fill="none" stroke="#CECBF6" stroke-width="1" opacity="0.55"/>
+        <!-- gentle float so the object never sits dead still -->
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="9s" repeatCount="indefinite" additive="sum"/>
+
+        <use xlink:href="#cube" href="#cube" transform="translate(-19 -11)"/>
+        <use xlink:href="#cube" href="#cube" transform="translate(19 -11)"/>
+        <use xlink:href="#cube" href="#cube" transform="translate(0 22)"/>
+        <use xlink:href="#cubeHot" href="#cubeHot" transform="translate(0 0)"/>
+        <use xlink:href="#cube" href="#cube" transform="translate(-19 11)"/>
+        <use xlink:href="#cube" href="#cube" transform="translate(19 11)"/>
+        <use xlink:href="#cube" href="#cube" transform="translate(0 -22)"/>
       </g>
     </g>
 
-    <circle r="4" fill="#ffffff">
-      <animate attributeName="opacity" values="0.6;0.7;1;0.65;0.6"
-               keyTimes="0;0.30;0.335;0.55;1" dur="8s" repeatCount="indefinite"/>
-    </circle>
+    <!-- orbiting chips, offset by thirds -->
+    <g opacity="0.9">
+      <g><animateMotion dur="16s" repeatCount="indefinite" path="M0,-104 A104,104 0 1,1 0,104 A104,104 0 1,1 0,-104"/>
+         <use xlink:href="#chip" href="#chip" transform="scale(0.62)"/></g>
+      <g><animateMotion dur="16s" begin="-5.33s" repeatCount="indefinite" path="M0,-104 A104,104 0 1,1 0,104 A104,104 0 1,1 0,-104"/>
+         <use xlink:href="#chip" href="#chip" transform="scale(0.5)"/></g>
+      <g><animateMotion dur="16s" begin="-10.66s" repeatCount="indefinite" path="M0,-104 A104,104 0 1,1 0,104 A104,104 0 1,1 0,-104"/>
+         <use xlink:href="#chip" href="#chip" transform="scale(0.55)"/></g>
+    </g>
   </g>
 
-  <!-- ================= TYPE ================= -->
-  <text x="640" y="250" text-anchor="middle"
+  <!-- ===================== TYPE ===================== -->
+  <text x="640" y="252" text-anchor="middle"
         font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
-        font-size="60" font-weight="300" fill="#ffffff"
-        letter-spacing="34" opacity="0">
+        font-size="60" font-weight="300" fill="#ffffff" letter-spacing="34" opacity="0">
     abha
     <animate attributeName="opacity" values="0;1" dur="1.1s" begin="0.15s" fill="freeze"/>
     <animate attributeName="letter-spacing" values="34;14" dur="1.6s" begin="0.15s" fill="freeze"
@@ -251,4 +322,8 @@
     <animate attributeName="x" values="640;440" dur="1.2s" begin="1.1s" fill="freeze"/>
     <animate attributeName="width" values="0;400" dur="1.2s" begin="1.1s" fill="freeze"/>
   </rect>
+
+  <!-- grain + vignette sit above everything -->
+  <rect width="1280" height="340" filter="url(#grain)" opacity="0.055"/>
+  <rect width="1280" height="340" fill="url(#vignette)"/>
 </svg>
