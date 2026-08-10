@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/banner.svg" width="100%" alt="abha — backend engineer · ai tooling · automation" />
+<img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/banner.svg" width="100%" alt="Esme Abha — backend engineer · ai tooling · automation" />
 
 <br/><br/>
 
