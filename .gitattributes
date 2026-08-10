@@ -1,0 +1,6 @@
+# gen-langs.sh runs on a Linux runner. A CRLF checkout makes it fail with
+# "bad interpreter", so pin line endings regardless of the committer's platform.
+*.sh   text eol=lf
+*.yml  text eol=lf
+*.svg  text eol=lf
+*.md   text eol=lf
