@@ -1,73 +1,88 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F77DD,100:D4537E&height=200&text=abha&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=backend+engineer+%C2%B7+ai+tooling+%C2%B7+she%2Fher&descAlignY=58&descSize=18&descFontColor=CECBF6" width="100%" />
+<img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/banner.svg" width="100%" alt="abha — backend engineer · ai tooling · automation" />
+
+<br/><br/>
+
+<!-- TODO: replace YOUR_LINKEDIN_URL and YOUR_RESUME_URL, or delete those two badges.
+     As written they link to a 404. -->
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A0A0F?style=for-the-badge&logo=linkedin&logoColor=7F77DD&labelColor=0A0A0F)](YOUR_LINKEDIN_URL)
+&nbsp;
+[![Gmail](https://img.shields.io/badge/GMAIL-0A0A0F?style=for-the-badge&logo=gmail&logoColor=D4537E&labelColor=0A0A0F)](mailto:esmechowdhuryabha@gmail.com)
+&nbsp;
+[![Resume](https://img.shields.io/badge/RESUME-0A0A0F?style=for-the-badge&logo=readdotcv&logoColor=CECBF6&labelColor=0A0A0F)](YOUR_RESUME_URL)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GITHUB-0A0A0F?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=0A0A0F)](https://github.com/EsmeAbha)
 
 </div>
+
+<br/>
+
+## Hey there! I'm Abha 👋
+
+**Backend Engineer & AI Tools Builder** · Dhaka, Bangladesh · she/her
+
+I'm a Software Engineer at **Odin Outsourcing**, previously backend at **Byteverse Ltd**. I care about
+the unglamorous half of software — the services, pipelines and jobs that quietly hold a product up
+while nobody looks at them.
+
+Most of what I build starts as someone doing something tedious by hand. I'm drawn to the moment a
+manual process becomes a script, then an API, then something that just runs. My work sits mostly in
+**Python** and **Laravel**, with **Flask** and **Next.js** when a thing needs an edge, and I'm
+currently going deeper on **cloud infrastructure and distributed systems**.
+
+<br/>
 
 ```console
 $ whoami
 abha — software engineer @ odin outsourcing
 
-$ cat ~/.focus
-i build ai-powered tools that delete repetitive work.
+$ cat ~/.philosophy
 if a human is doing it twice, it should be a script.
 
-$ ls ~/stack
-python/   laravel/   flask/   next.js/   typescript/
-
-$ uptime
-dhaka, bangladesh · UTC+6 · previously backend @ byteverse ltd
-
-$ echo $CURRENTLY_LEARNING
-cloud infrastructure & distributed systems
+$ echo $NOW
+learning: cloud infrastructure & distributed systems
 ```
 
-<div align="center">
+<br/>
 
-[![Gmail](https://img.shields.io/badge/say_hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:esmechowdhuryabha@gmail.com)
-<!-- TODO: replace YOUR_LINKEDIN_URL or delete this badge — right now it links to a 404 -->
-[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EsmeAbha)
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7F77DD,50:D4537E,100:7F77DD&height=3" width="100%"/>
 
-</div>
-
----
-
-## how i build things
+## How I build things
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{
-  'primaryColor':'#1a1b26','primaryTextColor':'#CECBF6','primaryBorderColor':'#7F77DD',
-  'lineColor':'#7F77DD','secondaryColor':'#2a2b3d','tertiaryColor':'#1a1b26',
-  'fontFamily':'Fira Code, ui-monospace, monospace','fontSize':'14px'}}}%%
+  'primaryColor':'#0f0e18','primaryTextColor':'#CECBF6','primaryBorderColor':'#7F77DD',
+  'lineColor':'#7F77DD','secondaryColor':'#1a1926','tertiaryColor':'#0f0e18',
+  'fontFamily':'ui-monospace, SFMono-Regular, Menlo, monospace','fontSize':'14px'}}}%%
 flowchart LR
-    A["🔁 a boring<br/>manual process"] --> B{worth<br/>automating?}
-    B -->|"just data"| C["🐍 python<br/>script / notebook"]
-    B -->|"needs an API"| D["⚗️ flask<br/>or laravel"]
-    B -->|"needs a face"| E["▲ next.js<br/>+ tailwind"]
-    C --> F[("🗄️ storage")]
+    A["a boring<br/>manual process"] --> B{worth<br/>automating?}
+    B -->|"just data"| C["python<br/>script / notebook"]
+    B -->|"needs an API"| D["flask<br/>or laravel"]
+    B -->|"needs a face"| E["next.js<br/>+ tailwind"]
+    C --> F[("storage")]
     D --> F
     E --> D
-    F --> G["✨ something that<br/>runs without me"]
+    F --> G["something that<br/>runs without me"]
 
     style A stroke:#D4537E,stroke-width:2px
     style G stroke:#D4537E,stroke-width:2px
     style B stroke:#7F77DD,stroke-width:2px
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7F77DD,50:D4537E,100:7F77DD&height=3" width="100%"/>
 
-## stack
+## Stack
 
 <details open>
 <summary><b>&nbsp;languages</b></summary>
 <br/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0A0A0F?style=flat-square&logo=python&logoColor=3776AB)
+![TypeScript](https://img.shields.io/badge/TypeScript-0A0A0F?style=flat-square&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-0A0A0F?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![PHP](https://img.shields.io/badge/PHP-0A0A0F?style=flat-square&logo=php&logoColor=777BB4)
+![R](https://img.shields.io/badge/R-0A0A0F?style=flat-square&logo=r&logoColor=276DC3)
 
 </details>
 
@@ -75,9 +90,9 @@ flowchart LR
 <summary><b>&nbsp;backend</b></summary>
 <br/>
 
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-0A0A0F?style=flat-square&logo=laravel&logoColor=FF2D20)
+![Flask](https://img.shields.io/badge/Flask-0A0A0F?style=flat-square&logo=flask&logoColor=ffffff)
+![Node.js](https://img.shields.io/badge/Node.js-0A0A0F?style=flat-square&logo=node.js&logoColor=339933)
 
 </details>
 
@@ -85,43 +100,40 @@ flowchart LR
 <summary><b>&nbsp;frontend</b></summary>
 <br/>
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-0A0A0F?style=flat-square&logo=next.js&logoColor=ffffff)
+![Tailwind](https://img.shields.io/badge/Tailwind-0A0A0F?style=flat-square&logo=tailwind-css&logoColor=38B2AC)
 
 </details>
 
 <details open>
-<summary><b>&nbsp;data & tooling</b></summary>
+<summary><b>&nbsp;data &amp; tooling</b></summary>
 <br/>
 
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-0A0A0F?style=flat-square&logo=pandas&logoColor=ffffff)
+![Jupyter](https://img.shields.io/badge/Jupyter-0A0A0F?style=flat-square&logo=jupyter&logoColor=F37626)
+![Git](https://img.shields.io/badge/Git-0A0A0F?style=flat-square&logo=git&logoColor=F05032)
+![Actions](https://img.shields.io/badge/Actions-0A0A0F?style=flat-square&logo=github-actions&logoColor=2088FF)
 
 </details>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7F77DD,50:D4537E,100:7F77DD&height=3" width="100%"/>
 
-## by the numbers
+## By the numbers
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=EsmeAbha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&title_color=7F77DD&icon_color=D4537E&text_color=CECBF6&bg_color=0d1117" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=EsmeAbha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&title_color=7F77DD&icon_color=D4537E&text_color=8F8AB8&bg_color=0A0A0F" height="165"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EsmeAbha&layout=compact&theme=tokyonight&hide_border=true&title_color=7F77DD&text_color=CECBF6&bg_color=0d1117" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EsmeAbha&layout=compact&theme=tokyonight&hide_border=true&title_color=7F77DD&text_color=8F8AB8&bg_color=0A0A0F" height="165"/>
 </p>
 
----
+<br/>
 
 <div align="center">
 
-<sub>
-  <code>$ exit</code> &nbsp;·&nbsp; thanks for stopping by &nbsp;·&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=EsmeAbha&style=flat-square&color=7F77DD&label=visitors" align="center" />
-</sub>
+<sub><code>$ exit</code> &nbsp;·&nbsp; thanks for stopping by</sub>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:D4537E,100:7F77DD&height=100&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://komarev.com/ghpvc/?username=EsmeAbha&style=flat-square&color=7F77DD&label=visitors" />
 
 </div>
