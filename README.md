@@ -1,115 +1,127 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F77DD,100:D4537E&height=220&text=Esm+E+Moula+Chowdhury+Abha&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend+Engineer+%7C+AI+Tools+Builder+%7C+she%2Fher&descAlignY=56&descAlign=50&descFontColor=CECBF6" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F77DD,100:D4537E&height=200&text=abha&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=backend+engineer+%C2%B7+ai+tooling+%C2%B7+she%2Fher&descAlignY=58&descSize=18&descFontColor=CECBF6" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7F77DD&center=true&vCenter=true&width=600&height=60&lines=Hi+there!+I'm+Abha+%F0%9F%91%8B;Backend+Engineer+%26+AI+Builder;Python+%7C+Laravel+%7C+Flask+%7C+Next.js;I+automate+the+boring+stuff+%E2%9C%A8;Always+learning%2C+always+shipping+%F0%9F%9A%80)](https://git.io/typing-svg)
+</div>
 
-<br/>
+```console
+$ whoami
+abha — software engineer @ odin outsourcing
 
-<p>
-  <img src="https://img.shields.io/badge/%F0%9F%93%8D_Location-Dhaka%2C+Bangladesh-7F77DD?style=flat-square&labelColor=EEEDFE&color=7F77DD" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/%F0%9F%92%BC_Role-Software+Engineer-1D9E75?style=flat-square&labelColor=E1F5EE&color=1D9E75" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/%F0%9F%A4%9D_Open+To-Collaboration-D4537E?style=flat-square&labelColor=FBEAF0&color=D4537E" />
-</p>
+$ cat ~/.focus
+i build ai-powered tools that delete repetitive work.
+if a human is doing it twice, it should be a script.
 
-<br/>
+$ ls ~/stack
+python/   laravel/   flask/   next.js/   typescript/
 
-<!-- TODO: replace YOUR_LINKEDIN_URL below with your real profile URL, or delete the badge.
-     As written it links to a 404. -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:esmechowdhuryabha@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EsmeAbha)
+$ uptime
+dhaka, bangladesh · UTC+6 · previously backend @ byteverse ltd
+
+$ echo $CURRENTLY_LEARNING
+cloud infrastructure & distributed systems
+```
+
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/say_hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:esmechowdhuryabha@gmail.com)
+<!-- TODO: replace YOUR_LINKEDIN_URL or delete this badge — right now it links to a 404 -->
+[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
+[![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EsmeAbha)
 
 </div>
 
 ---
 
-## 🙋‍♀️ About Me
+## how i build things
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EsmeAbha&layout=compact&theme=tokyonight&hide_border=true&title_color=7F77DD&text_color=CECBF6&bg_color=0d1117" width="320"/>
+```mermaid
+%%{init: {'theme':'base','themeVariables':{
+  'primaryColor':'#1a1b26','primaryTextColor':'#CECBF6','primaryBorderColor':'#7F77DD',
+  'lineColor':'#7F77DD','secondaryColor':'#2a2b3d','tertiaryColor':'#1a1b26',
+  'fontFamily':'Fira Code, ui-monospace, monospace','fontSize':'14px'}}}%%
+flowchart LR
+    A["🔁 a boring<br/>manual process"] --> B{worth<br/>automating?}
+    B -->|"just data"| C["🐍 python<br/>script / notebook"]
+    B -->|"needs an API"| D["⚗️ flask<br/>or laravel"]
+    B -->|"needs a face"| E["▲ next.js<br/>+ tailwind"]
+    C --> F[("🗄️ storage")]
+    D --> F
+    E --> D
+    F --> G["✨ something that<br/>runs without me"]
 
-> *"I love building AI-powered tools and web apps that automate repetitive tasks and make life easier."*
+    style A stroke:#D4537E,stroke-width:2px
+    style G stroke:#D4537E,stroke-width:2px
+    style B stroke:#7F77DD,stroke-width:2px
+```
 
+---
+
+## stack
+
+<details open>
+<summary><b>&nbsp;languages</b></summary>
 <br/>
 
-- 🏢 **Current:** Software Engineer @ **Odin Outsourcing**
-- 📌 **Previously:** Backend Developer @ **Byteverse Ltd**
-- 🛠️ **I work in:** Python · Laravel · Flask · Next.js
-- 🌱 **Currently learning:** Cloud infrastructure & distributed systems
-- 💡 **Interests:** AI tooling · automation · scalable backends
-- 🌍 **Location:** Dhaka, Bangladesh · she/her
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 
-<br clear="right"/>
+</details>
+
+<details open>
+<summary><b>&nbsp;backend</b></summary>
+<br/>
+
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>&nbsp;frontend</b></summary>
+<br/>
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>&nbsp;data & tooling</b></summary>
+<br/>
+
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+
+</details>
 
 ---
 
-## 🚀 Projects
-
-<!-- DRAFT — I inferred these one-liners from repo names and languages, because every
-     repo description on your account is currently empty. Verify and rewrite each line
-     to say what the project does and what was actually hard about it. -->
-
-| Project | What it is | Built with |
-|---|---|---|
-| **[Optra-Next](https://github.com/EsmeAbha/Optra-Next)** | TypeScript, Next.js |
-| **[bci-eeg](https://github.com/EsmeAbha/bci-eeg)**  | Python |
-| **[doc_scraper_api](https://github.com/EsmeAbha/doc_scraper_api)** | Python |
-| **[btc-price-analysis](https://github.com/EsmeAbha/btc-price-analysis)**  Jupyter, pandas |
-
-> **Do this next:** add a one-sentence description to each repo on GitHub (the *About* field,
-> top-right of the repo page). All 14 of your repos currently have none, so they show as bare
-> names in search, on your profile, and in the cards above. It is the single highest-value
-> 15 minutes available to this profile.
-
----
-
-## 🛠️ Tech Stack
+## by the numbers
 
 <p align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=EsmeAbha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&title_color=7F77DD&icon_color=D4537E&text_color=CECBF6&bg_color=0d1117" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=EsmeAbha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&title_color=7F77DD&icon_color=D4537E&text_color=CECBF6&bg_color=0d1117" height="165"/>
   &nbsp;
-  <img src="https://streak-stats.demolab.com?user=EsmeAbha&theme=tokyonight&hide_border=true&ring=7F77DD&fire=D4537E&currStreakLabel=7F77DD" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EsmeAbha&layout=compact&theme=tokyonight&hide_border=true&title_color=7F77DD&text_color=CECBF6&bg_color=0d1117" height="165"/>
 </p>
 
 ---
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=EsmeAbha&style=for-the-badge&color=7F77DD&label=PROFILE+VIEWS" />
+<sub>
+  <code>$ exit</code> &nbsp;·&nbsp; thanks for stopping by &nbsp;·&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=EsmeAbha&style=flat-square&color=7F77DD&label=visitors" align="center" />
+</sub>
 
 <br/><br/>
 
-*Thanks for visiting! Let's build something amazing together.* ✨
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:D4537E,100:7F77DD&height=120&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:D4537E,100:7F77DD&height=100&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
-
