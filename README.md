@@ -96,47 +96,16 @@ flowchart LR
 
 ## Stack
 
-<details open>
-<summary><b>&nbsp;languages</b></summary>
-<br/>
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-0A0A0F?style=flat-square&logo=python&logoColor=3776AB)
-![TypeScript](https://img.shields.io/badge/TypeScript-0A0A0F?style=flat-square&logo=typescript&logoColor=3178C6)
-![JavaScript](https://img.shields.io/badge/JavaScript-0A0A0F?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![PHP](https://img.shields.io/badge/PHP-0A0A0F?style=flat-square&logo=php&logoColor=777BB4)
-![R](https://img.shields.io/badge/R-0A0A0F?style=flat-square&logo=r&logoColor=276DC3)
+<img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/stack.svg" width="760" alt="languages: Python, TypeScript, JavaScript, PHP, R; backend: Laravel, Flask, Node.js; frontend: Next.js, Tailwind; data and tooling: pandas, Jupyter, Git, GitHub Actions"/>
 
-</details>
+</div>
 
-<details open>
-<summary><b>&nbsp;backend</b></summary>
-<br/>
-
-![Laravel](https://img.shields.io/badge/Laravel-0A0A0F?style=flat-square&logo=laravel&logoColor=FF2D20)
-![Flask](https://img.shields.io/badge/Flask-0A0A0F?style=flat-square&logo=flask&logoColor=ffffff)
-![Node.js](https://img.shields.io/badge/Node.js-0A0A0F?style=flat-square&logo=node.js&logoColor=339933)
-
-</details>
-
-<details open>
-<summary><b>&nbsp;frontend</b></summary>
-<br/>
-
-![Next.js](https://img.shields.io/badge/Next.js-0A0A0F?style=flat-square&logo=next.js&logoColor=ffffff)
-![Tailwind](https://img.shields.io/badge/Tailwind-0A0A0F?style=flat-square&logo=tailwind-css&logoColor=38B2AC)
-
-</details>
-
-<details open>
-<summary><b>&nbsp;data &amp; tooling</b></summary>
-<br/>
-
-![pandas](https://img.shields.io/badge/pandas-0A0A0F?style=flat-square&logo=pandas&logoColor=ffffff)
-![Jupyter](https://img.shields.io/badge/Jupyter-0A0A0F?style=flat-square&logo=jupyter&logoColor=F37626)
-![Git](https://img.shields.io/badge/Git-0A0A0F?style=flat-square&logo=git&logoColor=F05032)
-![Actions](https://img.shields.io/badge/Actions-0A0A0F?style=flat-square&logo=github-actions&logoColor=2088FF)
-
-</details>
+<sub>
+One self-hosted asset from <a href="scripts/gen-stack.js">scripts/gen-stack.js</a> rather than fourteen
+badge requests — same reasoning as the chart below, and it keeps the type and palette matched to it.
+</sub>
 
 <img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/divider.svg" width="100%"/>
 
