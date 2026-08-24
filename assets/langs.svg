@@ -7,21 +7,21 @@
   <g clip-path="url(#round)">
     <rect x="30" y="40" width="700" height="13" fill="#1a1926"/>
     <rect x="30.00" y="40" width="0" height="13" fill="#DA5B0B">
-      <animate attributeName="width" values="0;135.48" dur="0.9s" begin="0.24s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+      <animate attributeName="width" values="0;158.06" dur="0.9s" begin="0.24s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="165.48" y="40" width="0" height="13" fill="#3178C6">
+    <rect x="188.06" y="40" width="0" height="13" fill="#3178C6">
       <animate attributeName="width" values="0;90.32" dur="0.9s" begin="0.33s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="255.80" y="40" width="0" height="13" fill="#F34B7D">
+    <rect x="278.38" y="40" width="0" height="13" fill="#F34B7D">
       <animate attributeName="width" values="0;90.32" dur="0.9s" begin="0.42s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="346.12" y="40" width="0" height="13" fill="#198CE7">
+    <rect x="368.70" y="40" width="0" height="13" fill="#198CE7">
       <animate attributeName="width" values="0;67.74" dur="0.9s" begin="0.51s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="413.86" y="40" width="0" height="13" fill="#E34C26">
+    <rect x="436.44" y="40" width="0" height="13" fill="#E34C26">
       <animate attributeName="width" values="0;67.74" dur="0.9s" begin="0.60s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="481.60" y="40" width="0" height="13" fill="#3572A5">
+    <rect x="504.18" y="40" width="0" height="13" fill="#3572A5">
       <animate attributeName="width" values="0;45.16" dur="0.9s" begin="0.69s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
   </g>
@@ -29,7 +29,7 @@
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.57s" fill="freeze"/>
     <circle cx="35" cy="78" r="5" fill="#DA5B0B"/>
     <text x="48" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">Jupyter Notebook</text>
-    <text x="208" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8F8AB8">6 repos</text>
+    <text x="208" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8F8AB8">7 repos</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.64s" fill="freeze"/>
