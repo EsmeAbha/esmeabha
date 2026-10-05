@@ -7,22 +7,22 @@
   <g clip-path="url(#round)">
     <rect x="30" y="40" width="700" height="13" fill="#1a1926"/>
     <rect x="30.00" y="40" width="0" height="13" fill="#DA5B0B">
-      <animate attributeName="width" values="0;148.48" dur="0.9s" begin="0.24s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+      <animate attributeName="width" values="0;144.12" dur="0.9s" begin="0.24s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="178.48" y="40" width="0" height="13" fill="#3178C6">
-      <animate attributeName="width" values="0;106.06" dur="0.9s" begin="0.33s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <rect x="174.12" y="40" width="0" height="13" fill="#3178C6">
+      <animate attributeName="width" values="0;102.94" dur="0.9s" begin="0.33s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="284.54" y="40" width="0" height="13" fill="#F34B7D">
-      <animate attributeName="width" values="0;84.85" dur="0.9s" begin="0.42s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <rect x="277.06" y="40" width="0" height="13" fill="#3572A5">
+      <animate attributeName="width" values="0;82.35" dur="0.9s" begin="0.42s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="369.39" y="40" width="0" height="13" fill="#198CE7">
-      <animate attributeName="width" values="0;63.64" dur="0.9s" begin="0.51s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <rect x="359.41" y="40" width="0" height="13" fill="#F34B7D">
+      <animate attributeName="width" values="0;82.35" dur="0.9s" begin="0.51s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="433.03" y="40" width="0" height="13" fill="#3572A5">
-      <animate attributeName="width" values="0;63.64" dur="0.9s" begin="0.60s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <rect x="441.76" y="40" width="0" height="13" fill="#198CE7">
+      <animate attributeName="width" values="0;61.76" dur="0.9s" begin="0.60s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="496.67" y="40" width="0" height="13" fill="#E34C26">
-      <animate attributeName="width" values="0;63.64" dur="0.9s" begin="0.69s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <rect x="503.52" y="40" width="0" height="13" fill="#E34C26">
+      <animate attributeName="width" values="0;61.76" dur="0.9s" begin="0.69s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
   </g>
   <g opacity="0">
@@ -39,20 +39,20 @@
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.71s" fill="freeze"/>
-    <circle cx="505" cy="78" r="5" fill="#F34B7D"/>
-    <text x="518" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">C++</text>
+    <circle cx="505" cy="78" r="5" fill="#3572A5"/>
+    <text x="518" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">Python</text>
     <text x="678" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8F8AB8">4 repos</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.78s" fill="freeze"/>
-    <circle cx="35" cy="106" r="5" fill="#198CE7"/>
-    <text x="48" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">R</text>
-    <text x="208" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8F8AB8">3 repos</text>
+    <circle cx="35" cy="106" r="5" fill="#F34B7D"/>
+    <text x="48" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">C++</text>
+    <text x="208" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8F8AB8">4 repos</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.85s" fill="freeze"/>
-    <circle cx="270" cy="106" r="5" fill="#3572A5"/>
-    <text x="283" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">Python</text>
+    <circle cx="270" cy="106" r="5" fill="#198CE7"/>
+    <text x="283" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">R</text>
     <text x="443" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8F8AB8">3 repos</text>
   </g>
   <g opacity="0">
@@ -61,5 +61,5 @@
     <text x="518" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">HTML</text>
     <text x="678" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8F8AB8">3 repos</text>
   </g>
-  <text x="30" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#565273">generated from the GitHub API · 44 public repos</text>
+  <text x="30" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#565273">generated from the GitHub API · 45 public repos</text>
 </svg>
