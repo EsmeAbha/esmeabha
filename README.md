@@ -8,13 +8,11 @@
 
 <br/><br/>
 
-<!-- TODO: replace YOUR_LINKEDIN_URL and YOUR_RESUME_URL, or delete those two badges.
-     As written they link to a 404. -->
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A0A0F?style=for-the-badge&logo=linkedin&logoColor=7F77DD&labelColor=0A0A0F)](YOUR_LINKEDIN_URL)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A0A0F?style=for-the-badge&logo=linkedin&logoColor=7F77DD&labelColor=0A0A0F)](https://www.linkedin.com/in/esmeAbha)
 &nbsp;
 [![Gmail](https://img.shields.io/badge/GMAIL-0A0A0F?style=for-the-badge&logo=gmail&logoColor=D4537E&labelColor=0A0A0F)](mailto:esmechowdhuryabha@gmail.com)
 &nbsp;
-[![Resume](https://img.shields.io/badge/RESUME-0A0A0F?style=for-the-badge&logo=readdotcv&logoColor=CECBF6&labelColor=0A0A0F)](YOUR_RESUME_URL)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-0A0A0F?style=for-the-badge&logo=framer&logoColor=CECBF6&labelColor=0A0A0F)](https://esme.framer.ai)
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GITHUB-0A0A0F?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=0A0A0F)](https://github.com/EsmeAbha)
 
@@ -48,6 +46,18 @@ if a human is doing it twice, it should be a script.
 $ echo $NOW
 learning: cloud infrastructure & distributed systems
 ```
+
+<br/>
+
+## Featured projects
+
+| Project | What it shows |
+|---|---|
+| [`oncall-agent`](https://github.com/EsmeAbha/oncall-agent) | Alert triage that gathers cited evidence from Prometheus and Kubernetes, and auto-remediates (rollback, scale) only under guards: kill switch, cooldown, hourly budget, Lease leader election, least-privilege RBAC checked in CI |
+| [`gke-gitops-dr`](https://github.com/EsmeAbha/gke-gitops-dr) | Two-region Postgres on GKE via Argo CD and Terraform; failover is a reviewed PR, and DR drills measure RPO/RTO on every CI run |
+| [`k8s-slo-service`](https://github.com/EsmeAbha/k8s-slo-service) | A service run SRE-style: Helm, burn-rate SLO alerts tested with promtool, error-budget dashboard, runbook, and an Envoy edge drill where 0 of 750 requests failed with one of three instances broken |
+| [`netprobe`](https://github.com/EsmeAbha/netprobe) | Go tool that splits a request into DNS → TCP → TLS → TTFB and watches certificate expiry; CLI plus Prometheus exporter |
+| [`aws-auto-remediation`](https://github.com/EsmeAbha/aws-auto-remediation) | Self-healing ECS Fargate service in Terraform: EventBridge, Lambda, SQS, DynamoDB, SNS |
 
 <br/>
 
