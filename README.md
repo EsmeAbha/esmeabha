@@ -4,12 +4,10 @@
      'none'; sandbox) and images are embedded through its camo proxy, so the
      banner carries no JavaScript: the particle motion is precomputed and baked
      into SMIL by scripts/gen-banner.js. -->
-<img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/banner.svg" width="100%" alt="Esme Abha — backend engineer · ai tooling · automation" />
+<img src="https://raw.githubusercontent.com/EsmeAbha/EsmeAbha/main/assets/banner.svg" width="100%" alt="Esme Abha — devops engineer · ai tooling · automation" />
 
 <br/><br/>
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A0A0F?style=for-the-badge&logo=linkedin&logoColor=7F77DD&labelColor=0A0A0F)](https://www.linkedin.com/in/esmeAbha)
-&nbsp;
 [![Gmail](https://img.shields.io/badge/GMAIL-0A0A0F?style=for-the-badge&logo=gmail&logoColor=D4537E&labelColor=0A0A0F)](mailto:esmechowdhuryabha@gmail.com)
 &nbsp;
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-0A0A0F?style=for-the-badge&logo=framer&logoColor=CECBF6&labelColor=0A0A0F)](https://esme.framer.ai)
@@ -22,9 +20,9 @@
 
 ## Hey there! I'm Abha 👋
 
-**Backend Engineer & AI Tools Builder** · Dhaka, Bangladesh · she/her
+**DevOps Engineer & AI Tools Builder** · Dhaka, Bangladesh · she/her
 
-I'm a Software Engineer at **Odin Outsourcing**, previously backend at **Byteverse Ltd**. I care about
+I'm a DevOps Engineer at **Odin Outsourcing**, previously backend at **Byteverse Ltd**. I care about
 the unglamorous half of software — the services, pipelines and jobs that quietly hold a product up
 while nobody looks at them.
 
@@ -38,7 +36,7 @@ infrastructure and distributed systems.
 
 ```console
 $ whoami
-abha — software engineer @ odin outsourcing
+abha — devops engineer @ odin outsourcing
 
 $ cat ~/.philosophy
 if a human is doing it twice, it should be a script.
