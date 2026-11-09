@@ -6,41 +6,41 @@
   <text x="30" y="26" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#CECBF6">PUBLIC REPOS BY PRIMARY LANGUAGE</text>
   <g clip-path="url(#round)">
     <rect x="30" y="40" width="700" height="13" fill="#1a1926"/>
-    <rect x="30.00" y="40" width="0" height="13" fill="#DA5B0B">
+    <rect x="30.00" y="40" width="0" height="13" fill="#3572A5">
       <animate attributeName="width" values="0;140.00" dur="0.9s" begin="0.24s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="170.00" y="40" width="0" height="13" fill="#3178C6">
-      <animate attributeName="width" values="0;100.00" dur="0.9s" begin="0.33s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <rect x="170.00" y="40" width="0" height="13" fill="#DA5B0B">
+      <animate attributeName="width" values="0;122.50" dur="0.9s" begin="0.33s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="270.00" y="40" width="0" height="13" fill="#3572A5">
-      <animate attributeName="width" values="0;100.00" dur="0.9s" begin="0.42s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <rect x="292.50" y="40" width="0" height="13" fill="#3178C6">
+      <animate attributeName="width" values="0;87.50" dur="0.9s" begin="0.42s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="370.00" y="40" width="0" height="13" fill="#F34B7D">
-      <animate attributeName="width" values="0;80.00" dur="0.9s" begin="0.51s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <rect x="380.00" y="40" width="0" height="13" fill="#F34B7D">
+      <animate attributeName="width" values="0;70.00" dur="0.9s" begin="0.51s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
     <rect x="450.00" y="40" width="0" height="13" fill="#198CE7">
-      <animate attributeName="width" values="0;60.00" dur="0.9s" begin="0.60s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+      <animate attributeName="width" values="0;52.50" dur="0.9s" begin="0.60s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="510.00" y="40" width="0" height="13" fill="#E34C26">
-      <animate attributeName="width" values="0;60.00" dur="0.9s" begin="0.69s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <rect x="502.50" y="40" width="0" height="13" fill="#E34C26">
+      <animate attributeName="width" values="0;52.50" dur="0.9s" begin="0.69s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.57s" fill="freeze"/>
-    <circle cx="35" cy="78" r="5" fill="#DA5B0B"/>
-    <text x="48" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">Jupyter Notebook</text>
-    <text x="208" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8F8AB8">7 repos</text>
+    <circle cx="35" cy="78" r="5" fill="#3572A5"/>
+    <text x="48" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">Python</text>
+    <text x="208" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8F8AB8">8 repos</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.64s" fill="freeze"/>
-    <circle cx="270" cy="78" r="5" fill="#3178C6"/>
-    <text x="283" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">TypeScript</text>
-    <text x="443" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8F8AB8">5 repos</text>
+    <circle cx="270" cy="78" r="5" fill="#DA5B0B"/>
+    <text x="283" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">Jupyter Notebook</text>
+    <text x="443" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8F8AB8">7 repos</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.71s" fill="freeze"/>
-    <circle cx="505" cy="78" r="5" fill="#3572A5"/>
-    <text x="518" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">Python</text>
+    <circle cx="505" cy="78" r="5" fill="#3178C6"/>
+    <text x="518" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">TypeScript</text>
     <text x="678" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8F8AB8">5 repos</text>
   </g>
   <g opacity="0">
@@ -61,5 +61,5 @@
     <text x="518" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#CECBF6">HTML</text>
     <text x="678" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8F8AB8">3 repos</text>
   </g>
-  <text x="30" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#565273">generated from the GitHub API · 48 public repos</text>
+  <text x="30" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#565273">generated from the GitHub API · 52 public repos</text>
 </svg>
